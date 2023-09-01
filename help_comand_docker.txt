@@ -1,0 +1,7 @@
+
+docker exec -it 0694d39694c6 bash
+cd usr/data/
+
+**Размещение сводного файла в HDFS**
+
+hdfs dfs -copyFromLocal /usr/data/ /user/hueadmin/
